@@ -56,7 +56,7 @@ import TechnologInvitaion from '../components/TechnologInvitaion.vue';
         },
         {
             title:'这几种常见的 JVM 调优场景，你知道吗？',
-            img:'/src/assets/images/b1.png',
+            img:'https://upload-images.jianshu.io/upload_images/27963539-9b6fcd267df8629f.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/360/h/240/format/webp',
             describe:'假定你已经了解了运行时的数据区域和常用的垃圾回收算法，也了解了Hotspot支持的垃圾回收器。 一、cpu占用过高 cpu占用过高要分情况讨论，是不是业务上在搞活动，突然有大批的流量进来，而且活动结',
             heat:8.3,
             author:'Java码农',

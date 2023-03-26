@@ -109,28 +109,28 @@ import MemberInvitation from '../components/MemberInvitation.vue';
         {
             name:'灵异民宿',
             miaoshu:'为了英雄救美，我险些被人一酒瓶子爆头。 好在挨打是值得的，当晚我就成功和被救的小美女开房。 可是住的地方，好像有点儿诡异……',
-            img:'src/assets/images/bang1.png',
+            img:'https://upload.jianshu.io/collections/images/2001586/%E7%81%B5%E5%BC%82%E6%B0%91%E5%AE%BF.jpg?imageMogr2/auto-orient/strip&imageView2/2/w/500/format/webp',
             lists:[
                 {
-                    tu:'src/assets/images/book.png',
+                    tu:'https://upload.jianshu.io/collections/images/2001591/%E6%98%A5%E6%97%A5%E5%B0%86%E8%87%B3%EF%BC%8C%E5%90%BE%E4%BD%9C%E6%96%B0%E5%A6%87.jpg?imageMogr2/auto-orient/strip&imageView2/2/w/500/format/webp',
                     name:'春日将至，吾作新妇',
                     shuoming:'我第一次见到十二，我...',
                     author:'作者：茶点故事'
                 },
                 {
-                    tu:'src/assets/images/book2.png',
+                    tu:'https://upload.jianshu.io/collections/images/2001593/%E5%BF%83%E6%82%A6%E5%90%9B%E6%80%9D%E5%90%9B%E4%B8%8D%E9%85%8D.jpg?imageMogr2/auto-orient/strip&imageView2/2/w/500/format/webp',
                     name:'心悦君思君不配',
                     shuoming:'我第一次见到十二，我...',
                     author:'作者：茶点故事'
                 },
                 {
-                    tu:'src/assets/images/book3.png',
+                    tu:'https://upload.jianshu.io/collections/images/2001595/%E4%BA%8C%E6%AC%A1%E6%94%BB%E7%95%A5.jpg?imageMogr2/auto-orient/strip&imageView2/2/w/500/format/webp',
                     name:' 二次攻略',
                     shuoming:'好不容易攻略到头，...',
                     author:'作者：茶点故事'
                 },
                 {
-                    tu:'src/assets/images/book4.png',
+                    tu:'https://upload.jianshu.io/collections/images/2001585/%E6%80%BB%E8%A3%81%E6%95%99%E5%AD%90%E6%9C%89%E6%96%B9.jpg?imageMogr2/auto-orient/strip&imageView2/2/w/500/format/webp',
                     name:' 总裁教子有方',
                     shuoming:'总裁让我带他儿子在...',
                     author:'作者：茶点故事'
@@ -140,28 +140,28 @@ import MemberInvitation from '../components/MemberInvitation.vue';
         {
             name:'控制情绪，才能掌控自己',
             miaoshu:'人一旦缺乏自控力，就会沦为情绪的奴隶，世界上最厉害的本领就是能够管理好自己的情绪。',
-            img:'src/assets/images/bang2.png',
+            img:'https://upload.jianshu.io/collections/images/1977282/%E6%8E%A7%E5%88%B6%E6%83%85%E7%BB%AA%EF%BC%8C%E6%89%8D%E8%83%BD%E6%8E%8C%E6%8E%A7%E8%87%AA%E5%B7%B1.png?imageMogr2/auto-orient/strip&imageView2/2/w/500/format/webp',
             lists:[
                 {
-                    tu:'src/assets/images/book1-1.png',
+                    tu:'https://upload.jianshu.io/collections/images/1977306/%E7%88%B1%E6%83%85%E4%BF%9D%E9%B2%9C%E8%AE%A1.png?imageMogr2/auto-orient/strip&imageView2/2/w/500/format/webp',
                     name:'爱情保鲜计',
                     shuoming:'在爱情中，光靠努力',
                     author:'作者：茶点故事'
                 },
                 {
-                    tu:'src/assets/images/book2-2.png',
+                    tu:'https://upload.jianshu.io/collections/images/1977307/%E6%84%BF%E4%BD%A0%E4%B8%8D%E8%A2%AB%E7%94%9F%E6%B4%BB%E6%89%80%E7%B4%AF.png?imageMogr2/auto-orient/strip&imageView2/2/w/500/format/webp',
                     name:'人生驿站：愿你不被生活',
                     shuoming:'人生上所有坚持，都是因...',
                     author:'作者：茶点故事'
                 },
                 {
-                    tu:'src/assets/images/book3-3.png',
+                    tu:'https://upload.jianshu.io/collections/images/1977308/%E8%82%B2%E5%84%BF%E5%BF%83%E7%BB%8F.png?imageMogr2/auto-orient/strip&imageView2/2/w/500/format/webp',
                     name:'  育儿心经',
                     shuoming:'孩子的言行，就是真实缩，...',
                     author:'作者：茶点故事'
                 },
                 {
-                    tu:'src/assets/images/book4-4.png',
+                    tu:'https://upload.jianshu.io/collections/images/1977309/%E8%8B%8F%E6%AF%94%E7%AB%A5%E8%AF%9D%E9%95%87%EF%BC%9A%E8%AF%BB%E6%87%82%E5%AE%9D%E5%AE%9D%E5%BF%83_%E7%9C%8B%E5%9B%BE%E7%8E%8B.jpg?imageMogr2/auto-orient/strip&imageView2/2/w/500/format/webp',
                     name:' 苏比童话镇：读懂宝宝',
                     shuoming:'圆圆有一个只装一支...',
                     author:'作者：茶点故事'
@@ -176,19 +176,19 @@ import MemberInvitation from '../components/MemberInvitation.vue';
     const startabs=reactive([
         {
             name:'烨舟',
-            img:'src/assets/images/tabcard1.png'
+            img:'https://upload.jianshu.io/users/upload_avatars/26137873/e6664024-e5d3-4b69-a261-d7c007e29c12.jpg?imageMogr2/auto-orient/strip&imageView2/2/w/500/format/webp'
         },
         {
             name:'千始',
-            img:'src/assets/images/tabcard2.png'
+            img:'https://upload.jianshu.io/users/upload_avatars/8035890/9ec30d9e-221a-434c-bd6d-011d6ca735c5.jpg?imageMogr2/auto-orient/strip&imageView2/2/w/500/format/webp'
         },
         {
             name:'春花flower',
-            img:'src/assets/images/tabcard3.png'
+            img:'https://upload.jianshu.io/users/upload_avatars/19787328/7c7f5952-1781-490b-a235-7337e7f96b54.jpg?imageMogr2/auto-orient/strip&imageView2/2/w/500/format/webp'
         },
         {
             name:'一个惊鸿_',
-            img:'src/assets/images/tabcard4.png'
+            img:'https://upload.jianshu.io/users/upload_avatars/4954160/4e72a46a-6d13-424b-80ff-e063e017c199.jpg?imageMogr2/auto-orient/strip&imageView2/2/w/500/format/webp'
         },
     ]);
     function startab(index){
