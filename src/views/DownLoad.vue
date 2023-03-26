@@ -1,6 +1,6 @@
 <template>
     <div>
-        download
+       <img src="../assets/images/down.png" alt="">
     </div>
 </template>
 
@@ -9,5 +9,7 @@
 </script>
 
 <style  scoped>
-
+img{
+    width: 1519px;
+}
 </style>

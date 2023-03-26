@@ -1,31 +1,29 @@
 <template>
-    <div class="card">
+      <div class="card">
         <div class="card-first">
           <div>{{item.title}}</div>
         </div>
-
         <div class="card-seconde">
-            <span class="describe">{{text}}...</span>
-            <img v-if="item.img!=null" :src="item.img" alt="">
-        </div>
-
-        <div class="card-thrid">
+            <img  v-if="item.img!=null"  :src="item.img" alt="">
+            
+            <div class="second-right">
+                <span class="describe">{{text}}...</span>
+                <div class="card-thrid">
             <div >
-                <span class="iconfont icon-diamond ac mr-1"></span> 
-                 <span class="ac">{{item.heat}}</span>
+                <span class="iconfont icon-yanjing mr-1 ac"></span> 
+                <span class="ac">{{item.see}}</span>
             </div>
             <div>
-                <span class="ot">{{item.author}}</span>
-            </div>
-            <div>
-                <span class="iconfont icon-pinglun ot mr-1"></span> 
-                 <span class="ot">{{item.discuss}}</span>
-            </div>
-            <div>
-                <span class="iconfont icon-shoucang  ot mr-1"></span>
-                <span class="ot">{{item.collect}}</span>
+                <span class="iconfont icon-dianzan mr-1 ac"></span>
+                <span class="ac">{{item.dianzan}}</span>
             </div>
         </div>
+            </div>
+            
+        
+        
+        </div>
+       
     </div>
 </template>
 
@@ -45,41 +43,50 @@ const text=computed(()=>{
 })
 </script>
 
-<style  scoped>
+<style scoped>
 @import url("../assets/font/iconfont.css");
 .card{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 600px;
-    padding-bottom: 15px;
-    border-bottom: 1px solid #f0f0f0;
-    margin-top: 25px;
+    width: 625px;
+    margin-top: 15px;
 }
 .card-first div{
-    font-size:18px;
-    font-weight: 550;
+    max-width: 521px;
+    padding-bottom: 5px;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 18px;
+    font-weight: 500;
+    color: #333333;
 }
 .card-seconde{
+    margin-top: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
 }
-.card-seconde .describe{
-    margin-top: 15px;
+.second-right{
     flex:8;
-    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+}
+.card-seconde .second-right .describe{
+    display: inline-block;
+    font-size: 14px;
     color: #999;
-    margin-right: 10px;
 }
 .card-seconde img{
     flex: 3;
     width: 130px;
-    height: 90px;
+    height: 100px;
     border-radius: 15px;
     margin-right: 10px;
 }
+
 .card-thrid{
     margin-top: 10px;
     display: flex;
@@ -87,13 +94,14 @@ const text=computed(()=>{
     align-items: center;
 }
 .card-thrid div{
-    margin-right: 13px;
+    width: 40px;
+    margin-right: 5px;
 }
 .card-thrid span{
-    font-size: 10px;
+    font-size: 13px;
 }
 .mr-1{
-    margin-right: 3px;
+    margin-right: 5px;
 }
 .ac{
     color: #EA6F5A;

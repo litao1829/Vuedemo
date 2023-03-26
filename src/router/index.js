@@ -7,6 +7,12 @@ import Register from "../views/Register.vue"
 import Index from "../views/Index.vue"
 import DownLoad from "../views/DownLoad.vue"
 import Member from "../views/Member.vue"
+import Technology from "../views/Technology.vue"
+import Back from "../views/Back.vue"
+import Qianduan from "../views/Qianduan.vue"
+import Andriod from "../views/Andriod.vue"
+import IOS from "../views/IOS.vue"
+import Artificial from "../views/Artificial.vue"
 
 
 const router = createRouter({
@@ -42,6 +48,39 @@ const router = createRouter({
           path: 'member',
           name: 'member',
           component: Member
+        },
+        {
+          path: 'technology',
+          name: 'technology',
+          component: Technology,
+          redirect: '/technology/back',
+          children: [
+            {
+              path: 'back',
+              name: 'back',
+              component: Back
+            },
+            {
+              path: 'qianduan',
+              name: 'qianduan',
+              component: Qianduan
+            },
+            {
+              path: 'andriod',
+              name: 'andriod',
+              component: Andriod
+            },
+            {
+              path: 'ios',
+              name: 'ios',
+              component: IOS
+            },
+            {
+              path: 'artificial',
+              name: 'artificial',
+              component: Artificial
+            },
+          ]
         }
       ]
     },

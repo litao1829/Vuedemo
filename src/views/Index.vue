@@ -1,14 +1,13 @@
 
 <template>
-    
     <div class="con">
         <header>
         <RouterLink class="logo" to="home"></RouterLink>
        <div class="head-left">
-        <div class="item"> <RouterLink to="home"><span class="iconfont icon-zhinanzhen"></span>&nbsp;首页</RouterLink></div>
-        <div class="item2"> <RouterLink to="download"><span class="iconfont icon-shoujixiazai"></span>&nbsp;下载APP</RouterLink></div>
-        <div class="item2"> <RouterLink to="member"><span class="iconfont icon-wangguan"></span>&nbsp;会员</RouterLink></div>
-        <div class="item2"> <RouterLink to="/c"><span class="iconfont icon-daima"></span>&nbsp;IT技术</RouterLink></div>
+        <div class="item"> <RouterLink to="/home"><span class="iconfont icon-zhinanzhen"></span>&nbsp;首页</RouterLink></div>
+        <div class="item2"> <RouterLink to="/download"><span class="iconfont icon-shoujixiazai"></span>&nbsp;下载APP</RouterLink></div>
+        <div class="item2"> <RouterLink to="/member"><span class="iconfont icon-wangguan"></span>&nbsp;会员</RouterLink></div>
+        <div class="item2"> <RouterLink to="/technology"><span class="iconfont icon-daima"></span>&nbsp;IT技术</RouterLink></div>
        </div>
 
        <div class="search-kuang">
